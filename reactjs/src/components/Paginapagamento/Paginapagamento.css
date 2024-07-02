@@ -1,0 +1,157 @@
+#botpagamento{
+  background-color: #7aba78;
+  cursor: pointer;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  margin-left: 40%;
+  margin-bottom: 1rem;
+
+  border-radius: 4px;
+  width: 20%;
+}
+
+#logopa{
+   margin-left: 46%;
+   margin-top: 3rem;
+}
+.formapagamento{
+  
+padding: 2rem;}
+
+#pagpix{
+  margin-right: 1rem;
+}
+
+#pagcartao{
+  margin-left: 20rem;
+  margin-right: 1rem;
+
+}
+
+.card-details div {
+  margin-bottom: 10px;
+}
+
+.card-details label {
+  display: block;
+  margin-bottom: 5px;
+}
+.card-details{
+  padding: 2rem;
+}
+.card-details input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.cep-container {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 2rem;
+
+
+}
+
+.cep-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.cep-details {
+  margin-top: 10px;
+  padding: 2rem;
+}
+
+.cep-details input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+
+}
+.Paginapagamento{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  background-color: white;
+  margin-top: 8%;
+  border-radius: 1rem;
+  width: 35%;
+  margin-left: 32%;
+   box-shadow: 14px 29px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .payment-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-page h1 {
+  margin-bottom: 20px;
+}
+
+.payment-method {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.card-details div {
+  margin-bottom: 10px;
+}
+
+.card-details label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.card-details input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+} */

@@ -1,0 +1,38 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    margin-right: 15rem;
+    justify-content:space-around;
+    margin-bottom: 50px;
+  
+  
+  }
+  .logofooter{
+    width: 10rem;
+  }
+  
+  .redesfooter{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    
+  }
+  .menufooter{
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 30px ;
+     ;
+  
+  }
+  
+  #home{
+    margin-right: 13px;
+  }
+  
+  #produtos{
+    margin-right: 13px;
+  }
+  #sobrenos{
+    margin-right: 13px;
+  }
+  
+  

@@ -1,0 +1,60 @@
+#Logomarca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+    margin-top: 16%;
+    font-size: 38px;
+    font-family: "Frank Ruhl Libre", serif;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    font-family: "Frank Ruhl Libre", serif;
+    margin-top: 4rem;
+
+}
+
+#ondeestamos{
+    margin-right: 2rem;
+    font-size: 27px;
+
+
+}
+.sobreagf{
+    
+}
+
+#tithistoria{
+    margin-right: 8rem;
+    margin-left: 8rem;
+    font-size: 20px;
+    margin-top: 5;
+    font-family: "Frank Ruhl Libre", serif;
+    margin-bottom: 5rem;
+
+}
+
+#titulogf{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    
+    font-size: 30px;
+    font-family: "Frank Ruhl Libre", serif;
+
+}
+#hisempresa{
+    .container {
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        margin: 20px auto;
+        margin-bottom: 15rem;
+    }
+    
+}

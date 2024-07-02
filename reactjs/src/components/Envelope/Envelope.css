@@ -1,0 +1,107 @@
+#imgenv {
+  width: 20%;
+  margin-left: 4rem;
+}
+
+.material,
+.formato,
+.cores,
+.acabamento {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.material {
+  margin-top: 2rem;
+}
+
+#escolha {
+  margin-bottom: 8rem;
+}
+
+#escolha1 {
+  margin-bottom: 4rem;
+}
+
+#escolha2 {
+  margin-bottom: 7rem;
+}
+
+#escolha4 {
+  margin-bottom: 4rem;
+}
+
+h1 {
+  font-size: 20px;
+  margin-left: 2rem;
+}
+
+#icon {
+  font-size: 25px;
+}
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 2%;
+  margin-top: 5%;
+  padding-right: 2%;
+  padding-left: 2%;
+  width: 30%;
+  box-shadow: 14px 29px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#avancar {
+  margin-top: 2rem;
+  background-color: #7aba78;
+  width: 8rem;
+  padding: 10px;
+}
+
+#limpar {
+  margin-top: 2rem;
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+  background-color: #B80000;
+  width: 8rem;
+  padding: 10px;
+}
+
+#valortotal {
+  padding: 15px;
+  text-align: center;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+}
+
+#voltar {
+  width: 8rem;
+  padding: 10px;
+  margin-top: 2rem;
+  background-color: #eeeeee;
+  margin-left: 4rem;
+}
+
+.direita {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+
+.imgetit {
+  width: 20%;
+  margin-left: 4rem;
+}

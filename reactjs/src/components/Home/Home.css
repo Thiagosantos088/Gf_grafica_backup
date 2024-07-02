@@ -1,0 +1,142 @@
+/*P0 zerando a margin,padding,border do site e colocando uma cor e fonte para o site todo*/
+/* *{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: #d4e2f3;
+    font-family: vioda libre;
+} */
+/*P1 parte do topo onde estao as imagem e os textos*/
+#container-home{
+    margin-top: 20rem;
+    display: flex;
+    margin-left: 28% ;
+}
+.bodyhome{
+    margin: 50px;
+}
+#imghome{
+    display: flex;
+    width: 90px;
+    border-radius: 50px; 
+}
+
+
+/*P2 parte dos mais vendidos*/
+.caixahome{
+    margin-left: 35%;
+   background-color: white;
+   width: 32%;
+}
+
+.imgvendidos{
+    display: flex;
+    background-color: white;
+}
+
+#osmaisvendidos{
+    margin-top: 15px;
+    font-family:  vioda libre;
+    font-size: 27px;
+    background-color: #ffffff;
+    text-align: center;
+}
+#imge{
+    margin-top:50px ;
+    width: 130px; 
+}
+.imge{
+    margin: 30px;
+}
+#vertodos{
+    background-color: #ffffff;
+    margin-top: 10px;
+    text-align: end;
+    margin-right: 2rem;
+}
+u{
+    background-color: #ffffff;
+} 
+/*P3 parte da "empresa se destaca não apenas pela capacidade técnica" */
+.empre{
+    margin-top: 130px;
+    display: flex;
+}
+#em{
+    margin-left: 350px;
+    width: 500px;
+    height: 300px;
+}
+#emp{
+    margin-top: 70px;
+    font-size: 20px;
+    width: 550px;
+    margin-left: 60px;
+}
+/*P4 parte da foto de pesquisa e mercado*/
+.desta{
+    display: flex;
+}
+#dest{
+    width: 500px;
+    margin-top: 90px;
+    margin-left: 400px;
+}
+#des{
+    margin-left: 80px; 
+    width: 500px;
+    height: 300px;
+}
+/*P5 parte baixa do site ,parte do se inscreva-se ate increver e imagem */
+.notu{
+    display: flex;
+    margin-top: 70px;
+}
+#no{
+    margin-left: 390px;
+    width: 300px;
+}
+.noc{
+    margin-left: 250px;
+}
+.osdl{
+    margin: 0px;
+}
+#h3-1{
+    font-size: 27px;
+    margin-bottom: 1px;
+}
+#h3-2{
+    margin-bottom: 5px;
+    margin-right: 35px;
+    font-size: 15px;
+}
+#email{
+    margin: 0px;
+    padding: 0px;
+    border: 0px; 
+    margin-top: 15px;
+    border-style: solid;
+    border-width: 3px;
+    width: 500px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 12px;
+    height: 25px;
+    border-radius: 17px;
+    margin-bottom: 10px;
+}
+#botaohome{
+    background-color: black;
+    color: #ffffff;
+    width: 110px;
+    height: 25px;
+    padding-top: 1px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20rem;
+    border-radius: 5px;
+}
+::placeholder{
+    font-size: 18px;
+}

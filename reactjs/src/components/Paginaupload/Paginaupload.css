@@ -1,0 +1,49 @@
+.geral{
+    background-color: white;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    margin-left: 30%;
+    margin-top: 18%;
+    padding: 2rem;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 51px 7px rgba(194,188,194,0.76);
+-moz-box-shadow: 0px 0px 51px 7px rgba(194,188,194,0.76);
+box-shadow: 0px 0px 51px 7px rgba(194,188,194,0.76);
+}
+
+
+.icone{
+    display: flex;
+    flex-direction: row;
+}
+.icone, h2{
+    font-size: 20px;
+  
+}
+
+.icone1{
+    margin-right: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.icone2{
+    display: flex;
+    flex-direction: column;
+}
+
+#tituloup{
+    margin-bottom: 5rem;
+    font-size: 30px;
+    font-family: "Frank Ruhl Libre", serif;
+  
+}
+
+#iconup{
+    font-size: 50px;
+    margin-bottom: 2rem;
+
+}

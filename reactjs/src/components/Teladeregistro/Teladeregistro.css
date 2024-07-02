@@ -1,0 +1,78 @@
+.container-registro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin-top: 8%;
+    border-radius: 1rem;
+    width: 35%;
+    margin-left: 32%;
+}
+
+#logotr{
+    margin-left: 46%;
+    margin-top: 3rem;
+    width: 9rem;
+}
+
+#txtcadastro {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-family: "Frank Ruhl Libre", serif;
+    text-align: center;
+}
+
+.botaoreg{
+   margin-top: 4rem;
+   margin-bottom: 2rem;
+   align-items: center;
+   margin-left: 33%}
+
+#criarconta{
+    margin-right: 15px;
+    margin-left: 2rem;
+
+}
+#confreg{
+    margin-left: 2rem;
+
+}
+.residencia{
+ margin-bottom: 1rem;
+ margin-left: 2rem;
+
+}
+#telefonetr{
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+
+}
+#nometr{
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+
+}
+#cpftr{
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+
+}
+#bairro{
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+#senhareg{
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+
+}
+#criarconta{
+    background-color: #7ABA78;
+    border-radius: 5px;
+    padding: 10px;
+}
+input::placeholder {
+    color: #151515;
+  }

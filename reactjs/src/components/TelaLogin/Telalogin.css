@@ -1,0 +1,80 @@
+.container-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    background-color: white;
+    margin-top: 8%;
+    border-radius: 1rem;
+    width: 35%;
+    margin-left: 32%;
+}
+
+.error {
+    color: red;
+    font-size: 0.875em;
+  }
+  
+
+.login{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+.email{
+    border-bottom:solid;
+    margin-top: 3rem;
+    padding-right: 20rem;
+}
+
+.senha{
+    border-bottom: solid;
+    margin-top: 2rem;
+
+}
+#criar{
+  border-bottom: solid;
+
+  margin-right: 2rem;
+
+}
+#entrar{
+    border-bottom: solid;
+
+    
+}
+.botaologin{
+    display: flex;
+    flex-direction: row;
+
+    
+    
+}
+
+
+.redeslogin {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+
+.logo{
+    margin-left: 46%;
+    margin-top: 3rem;
+    width: 9rem;
+}
+
+#txtlogin{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family: "Frank Ruhl Libre", serif;
+  
+}
