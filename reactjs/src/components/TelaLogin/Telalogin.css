@@ -10,10 +10,7 @@
     margin-left: 32%;
 }
 
-.error {
-    color: red;
-    font-size: 0.875em;
-  }
+
   
 
 .login{
@@ -21,7 +18,7 @@
     flex-direction: column;
     margin-bottom: 5rem;
 }
-.email{
+.emailtl{
     border-bottom:solid;
     margin-top: 3rem;
     padding-right: 20rem;

@@ -13,7 +13,7 @@ function Contatos(){
         <Header/>
 
         <div class='ponto'>
-        <h1 id="h1-1">Precisa de ajuda?</h1>
+        <h1 id="titulocont">Precisa de ajuda?</h1>
         <h1 id="h1-2">Veja entrar em contato !</h1>
         </div>
 
@@ -25,11 +25,11 @@ function Contatos(){
                 <h2 id="h2-1">Whatsapp</h2>
             </div>
             <div id='nume'>
-                <h2 id="h2-3">(11) 99999-9999</h2>
+                <h2 id="contatowhats">(11) 99999-9999</h2>
             </div>
             <div id='h2-6'>
-                <h2 id="h2-4">Segunda a sexta</h2>
-                <h2 id='h2-5'>das 09:00 as 17:00</h2>
+                <h2 id="datahora">Segunda a sexta</h2>
+                <h2 id='horawhats'>das 09:00 as 17:00</h2>
             </div>
         </div>
         
@@ -38,12 +38,12 @@ function Contatos(){
                 <img src={T} id="img-1" />
                 <h2 id="h2-1">Telefone</h2>
             </div>
-            <div id='nume'>
-                <h2 id="h2-3">(11) 99999-9999</h2>
+            <div id='numetel'>
+                <h2 id="contatotel">(11) 99999-9999</h2>
             </div>
             <div id='h2-6'>
-                <h2 id="h2-4">Segunda a sexta</h2>
-                <h2 id='h2-5'>das 09:00 as 17:00</h2>
+                <h2 id="datatel">Segunda a sexta</h2>
+                <h2 id='horatel'>das 09:00 as 17:00</h2>
             </div>
         </div>
         
@@ -55,11 +55,11 @@ function Contatos(){
                 <h2 id="h2-1">Email</h2>
             </div>
             <div id='nume'>
-                <h2 id="h2-3"><a>Contato@gfgrafica.com</a></h2>
+                <h2 id="contatoemail"><a>Contato@gfgrafica.com</a></h2>
             </div>
             <div id='h2-6'>
-                <h2 id="h2-4">Segunda a sexta</h2>
-                <h2 id='h2-5'>das 09:00 as 17:00</h2>
+                <h2 id="dataemail">Segunda a sexta</h2>
+                <h2 id='horaemail'>das 09:00 as 17:00</h2>
             </div>
         </div>
 

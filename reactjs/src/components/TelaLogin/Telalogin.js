@@ -49,7 +49,7 @@ function Telalogin() {
                 <div className='login'>
                     {/* Campos de entrada para email e senha */}
                     <input
-                        className='email'
+                        className='emailtl'
                         type="text"
                         name="email"
                         id="email"

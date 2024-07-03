@@ -2,6 +2,7 @@
     import React, { useContext } from 'react';
     import { UserContext } from '../Contextogeral/UserGeral.js';
     import Header from '../Header/Header.js';
+    import Home from '../Home/Home.js'
     import './Areadocliente.css'
 
     function AreaDoCliente() {
@@ -18,6 +19,8 @@
             {/* Container da frase personalizada "seja bem vindo(a)" e o nome do usuario */}
         
                 <p id='bemvindo' >Bem-vindo(a), {user ? user.nome : 'Visitante'}!</p>
+
+                <Home/>
 
             </>
         );

@@ -7,10 +7,56 @@
     margin-top: 20rem;
     text-align: left;
     margin-left: 70px;
+    font-size: vioda libre;
+
+}
+.numetel{
+    text-align: center;
+}
+#titulocont{
+    font-size: vioda libre;
+
+}
+#contatotel{
+    text-align: center;
+    margin-top: 10px;
+}
+#datatel{
+    text-align: center;
+}
+#horatel{
+    font-size: 13px;
+    text-align: center;
+
 }
 
-.ponto ,h1{
-    font-size: vioda libre;
+#contatowhats{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#datahora{
+    text-align: center;
+}
+
+#horawhats{
+    font-size: 13px;
+    text-align: center;
+
+}
+#dataemail{
+    text-align: center;
+
+}
+
+#contatoemail{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#horaemail{
+    font-size: 13px;
+    text-align: center;
 
 }
 #h1contato{

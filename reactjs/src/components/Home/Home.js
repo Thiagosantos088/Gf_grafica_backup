@@ -13,6 +13,8 @@ import HM from '../../image/HM.png';
 import HCO from '../../image/HCO.png';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import {Link, NavLink} from 'react-router-dom';
+
 function Home(){
     return(
      <>
@@ -53,7 +55,7 @@ function Home(){
           <img src={HB} id="imge" class="imge"/>
           </div>
           
-          <h4 id='vertodos' ><u>VER TODOS</u></h4>
+          <NavLink to="/produtos"> <h4 id='vertodos' ><u>VER TODOS</u></h4></NavLink>
         </div>
 
         {/*P3*/}
@@ -80,7 +82,7 @@ function Home(){
         <h3 id="h3-1">Inscreva-se em nossa newsletter</h3>
         <h3 id="h3-2">para receber últimas noticias e descontos exclusivos</h3>
         </div>  
-        <input id='email' type='text' placeholder='DIGITE O EMAIL'/>
+        <input id='emailhome' type='text' placeholder='DIGITE O EMAIL'/>
         <div >
         <button id='botaohome'>Inscreva</button>
         </div>
