@@ -12,8 +12,7 @@ footer{
   }
   
   .redesfooter{
-    width: 4rem;
-    height: 4rem;
+   
     display: flex;
     
   }
@@ -23,7 +22,15 @@ footer{
      ;
   
   }
-  
+  #instafo{
+    width: 4rem;
+  }
+  #whatsfo{
+    width: 4rem;
+  }
+  #facefo{
+    width: 4rem;
+  }
   #home{
     margin-right: 13px;
   }

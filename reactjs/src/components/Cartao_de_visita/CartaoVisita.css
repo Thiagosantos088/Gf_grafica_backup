@@ -9,7 +9,8 @@
  .material,
  .formato,
  .cores,
- .acabamento {
+ .acabamento
+ .quantidade {
    display: flex;
    flex-direction: row;
    margin-bottom: 1rem;

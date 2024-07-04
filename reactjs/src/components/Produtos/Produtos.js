@@ -1,7 +1,7 @@
 import Cards from "../Produtos/Cards";
 import cartao from "../../image/Cartao_de_visita.png"
 import banner from '../../image/BannerPersonalizado.png'
-import envelope from '../../image/Envolepes-personalizado.png'
+import envelopepro from '../../image/Envolepes-personalizado.png'
 import pasta from '../../image/Pasta.png'
 import folheto from '../../image/folheto.png'
 import blocos from '../../image/blocos.png'
@@ -18,7 +18,7 @@ function Produtos(nome,imagem, valor,apartir,un) {
             <div className="bloco1">
             <Cards nome='Cartão de visita' imagem= {cartao} apartir="A partir de" valor="R$ 80,00"un="500 un" link="/cartaovisita" />
             <Cards nome='Banner' imagem= {banner} apartir="A partir de" valor="R$ 60,00" un="1 un" link="/banner"/>
-            <Cards nome='Envelope Personalizado' imagem= {envelope} apartir="A partir de" valor="R$ 140,00" un="500 un" link="/envelope"/>
+            <Cards nome='Envelope Personalizado' imagem= {envelopepro} apartir="A partir de" valor="R$ 140,00" un="500 un" link="/envelope"/>
             </div>
             < div className="bloco2">
             <Cards nome='Pastas' imagem= {pasta} apartir="A partir de" valor="R$ 400,00" un="500 un" link="/pastas"/>

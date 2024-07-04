@@ -63,8 +63,8 @@ function Pastas() {
         </div>
         <select id="escolha2" onChange={(e) => handleSelectChange(e, setCores)} value={cores}>
           <option value={0}>Selecione</option>
-          <option value={50}>4x0 cores</option>
-          <option value={100}>4x4 cores</option>
+          <option value={10}>4x0 cores(10,00)</option>
+          <option value={10}>4x4 cores(10,00)</option>
         </select>
 
         <div className="acabamento">

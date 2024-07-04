@@ -79,9 +79,9 @@ function Telalogin() {
                 <div className='redeslogin'>
                     {/* Opções para login com redes sociais */}
                     <p>Login com:</p>
-                    <img id='instatl' src={insta} alt='Instagram' />
-                    <img id='facetl' src={face} alt='Facebook' />
-                    <img id='gmailtl' src={gmail} alt='Gmail' />
+                  <a href='https://www.instagram.com/'>  <img id='instatl' src={insta} alt='Instagram' /> </a>
+                  <a href='https://pt-br.facebook.com/login/device-based/regular/login/'><img id='facetl' src={face} alt='Facebook' /></a>
+                  <a href='https://accounts.google.com/'> <img id='gmailtl' src={gmail} alt='Gmail' /></a>
                 </div>
             </div>
         </>

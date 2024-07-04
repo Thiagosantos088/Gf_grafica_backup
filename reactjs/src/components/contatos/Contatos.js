@@ -5,6 +5,7 @@ import T from '../../image/T.png'
 import M from '../../image/M.png'
 import B from '../../image/B.png'
 import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
 
 function Contatos(){
     return(
@@ -25,7 +26,7 @@ function Contatos(){
                 <h2 id="h2-1">Whatsapp</h2>
             </div>
             <div id='nume'>
-                <h2 id="contatowhats">(11) 99999-9999</h2>
+            <a href=' https://wa.me/5511959364604'><h2 id="contatowhats">Clique aqui</h2></a>
             </div>
             <div id='h2-6'>
                 <h2 id="datahora">Segunda a sexta</h2>
@@ -39,7 +40,7 @@ function Contatos(){
                 <h2 id="h2-1">Telefone</h2>
             </div>
             <div id='numetel'>
-                <h2 id="contatotel">(11) 99999-9999</h2>
+                <h2 id="contatotel">(11) 95936-4604</h2>
             </div>
             <div id='h2-6'>
                 <h2 id="datatel">Segunda a sexta</h2>

@@ -12,17 +12,22 @@ function Folheto() {
   const [acabamento, setAcabamento] = useState(0);
   const [total, setTotal] = useState(0);
 
-  const handleSelectChange = (e, setFunction) => {
+  const calculateTotal = () => {
+    return material + formato + cores + acabamento;
+  };
+
+  const handleSelectChange = (e, setFunction, prevValue) => {
     const value = parseInt(e.target.value);
     setFunction(value);
-    setTotal(material + formato + cores + acabamento + value);
+    setTotal(prevTotal => prevTotal - prevValue + value);
   };
 
   const formatCurrency = (value) => {
     return value.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
   };
 
-  const resetValues = () => {
+  const resetValues = (e) => {
+    e.preventDefault();
     setMaterial(0);
     setFormato(0);
     setCores(0);
@@ -39,7 +44,7 @@ function Folheto() {
           <FontAwesomeIcon id="icon" icon={faLayerGroup} />
           <h1>Material</h1>
         </div>
-        <select id="escolhafo" onChange={(e) => handleSelectChange(e, setMaterial)}>
+        <select id="escolhafo" onChange={(e) => handleSelectChange(e, setMaterial, material)}>
           <option value="0">Selecione</option>
           <option value="10">Sulfite 90g (R$10,00)</option>
           <option value="15">Couchê 90g (R$15,00)</option>
@@ -54,7 +59,7 @@ function Folheto() {
           <FontAwesomeIcon id="icon" icon={faBorderTopLeft} />
           <h1>Formato</h1>
         </div>
-        <select id="escolha1" onChange={(e) => handleSelectChange(e, setFormato)}>
+        <select id="escolha1" onChange={(e) => handleSelectChange(e, setFormato, formato)}>
           <option value="0">Selecione</option>
           <option value="10">105x148mm (R$10,00)</option>
           <option value="15">148x200mm (R$15,00)</option>
@@ -68,7 +73,7 @@ function Folheto() {
           <FontAwesomeIcon id="icon" icon={faPalette} />
           <h1>Cores</h1>
         </div>
-        <select id="escolha2" onChange={(e) => handleSelectChange(e, setCores)}>
+        <select id="escolha2" onChange={(e) => handleSelectChange(e, setCores, cores)}>
           <option value="0">Selecione</option>
           <option value="10">1x0 cor (R$10,00)</option>
           <option value="20">2x0 cores (R$20,00)</option>
@@ -81,7 +86,7 @@ function Folheto() {
           <FontAwesomeIcon id="icon" icon={faSwatchbook} />
           <h1>Acabamento</h1>
         </div>
-        <select id="escolha4fo" onChange={(e) => handleSelectChange(e, setAcabamento)}>
+        <select id="escolha4fo" onChange={(e) => handleSelectChange(e, setAcabamento, acabamento)}>
           <option value="0">Selecione</option>
           <option value="10">Refilados (R$10,00)</option>
           <option value="15">Refilado 1 Dobra (R$15,00)</option>

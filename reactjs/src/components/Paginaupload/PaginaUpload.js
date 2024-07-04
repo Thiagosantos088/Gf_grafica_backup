@@ -40,6 +40,7 @@ function Paginaupload() {
           <h2>Continuar sem arquivo</h2>
         </div>
       </div>
+      <a href=' https://wa.me/5511959364604'><h1 id='quantieespe'>Especificações e quantidade  clique aqui</h1></a>
     </div>
   );
 }

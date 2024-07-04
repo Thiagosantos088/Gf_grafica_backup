@@ -50,8 +50,8 @@ function Banner() {
         </div>
         <select id="escolha" onChange={(e) => mudancadevalor(e, setMaterial)} value={material}>
           <option value={0}>Selecione</option>
-          <option value={10}>Lona brilho 340g</option>
-          <option value={15}>Lona fosca 340g</option>
+          <option value={10}>Lona brilho 340g(10,00)</option>
+          <option value={15}>Lona fosca 340g(15,00)</option>
         </select>
 
         {/* Seção de Formato */}
@@ -61,10 +61,10 @@ function Banner() {
         </div>
         <select id="escolha1" onChange={(e) => mudancadevalor(e, setFormato)} value={formato}>
           <option value={0}>Selecione</option>
-          <option value={20}>400x600mm</option>
-          <option value={25}>600x900mm</option>
-          <option value={30}>700x1000mm</option>
-          <option value={35}>1000x1500mm</option>
+          <option value={10}>400x600mm(10,00)</option>
+          <option value={10}>600x900mm(10,00)</option>
+          <option value={10}>700x1000mm(10,00)</option>
+          <option value={10}>1000x1500mm(10,00)</option>
         </select>
 
         {/* Seção de Cores */}
@@ -74,7 +74,7 @@ function Banner() {
         </div>
         <select id="escolha2" onChange={(e) => mudancadevalor(e, setCores)} value={cores}>
           <option value={0}>Selecione</option>
-          <option value={40}>4x0 cores (Colorido frente)</option>
+          <option value={10}>4x0 cores (Colorido frente)(10,00)</option>
         </select>
 
         {/* Seção de Acabamento */}
@@ -84,8 +84,8 @@ function Banner() {
         </div>
         <select id="escolha4" onChange={(e) => mudancadevalor(e, setAcabamento)} value={acabamento}>
           <option value={0}>Selecione</option>
-          <option value={10}>Bastão/Cordão</option>
-          <option value={15}>Ilhós</option>
+          <option value={10}>Bastão/Cordão(10,00)</option>
+          <option value={15}>Ilhós()15,00</option>
         </select>
 
         {/* Botão para limpar valores */}
